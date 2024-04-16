@@ -36,7 +36,7 @@ fn init() -> (Vec<i32>, u32) {
 }
 
 #[test]
-fn test_double_loop() {
+fn answer1() {
     let (nums, k) = init();
     let r = double_loop(&nums, k);
     assert_eq!(2, r);
